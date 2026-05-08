@@ -1,0 +1,24 @@
+{
+  "name": "gis-portfolio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "zip:projects": "node scripts/create-project-zips.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "^5.8.3",
+    "vite": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3"
+  }
+}
